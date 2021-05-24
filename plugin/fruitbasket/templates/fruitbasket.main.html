@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    # extends "layout.html" 
+
+    <head>
+        <title>
+            # block title
+                Fruit Basket Plugin
+                ${ super() }
+            # endblock title
+        </title>
+        # block head
+            ${ super() }
+        # endblock head
+    </head>
+    <body>
+        # block content
+            <div id="content">
+                <h1>Fruit Basket</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        # for fruit in fruits:
+                        <tr>
+                            <td>${fruit.id}</td>
+                            <td>${fruit.nome}</td>
+                        </tr>
+                        # endfor
+                    </tbody>
+                </table>
+                <hr>
+                <form method="POST" action="fruitbasket">
+                    <input type="hidden" name="__FORM_TOKEN" value="${form_token}"/>
+                    <label>Nome:</label> <input name="nome" required/> <br>
+                    <label>Sabor:</label> <input name="sabor" required/> <br>
+                    <label>Tamanho:</label> <input name="tamanho" required/> <br>
+                    <label>Peso:</label> <input name="peso" required/> <br>
+                    <label>Cor:</label> <input name="cor" required/> <br>
+                    <input type="submit" name="action" value="Add">
+                </form>
+                <hr>
+                <form method="POST" action="fruitbasket">
+                    <input type="hidden" name="__FORM_TOKEN" value="${form_token}"/>
+                    <label>ID:</label> <input name="id" required/> <br>
+                    <input type="submit" name="action" value="Remove">
+                </form>
+            </div>
+        # endblock content
+    </body>
+
+</html>
+

@@ -11,7 +11,7 @@ class EmailDeBoasVindas:
         self.ChutarCor() # Entre neste método
         print('Programa finalizado') # Para a execução aqui novamente usando um break point
         
-        
+
     def ChutarCor(self):
         cores = ['azul','rosa','verde',]
         for cor in cores:

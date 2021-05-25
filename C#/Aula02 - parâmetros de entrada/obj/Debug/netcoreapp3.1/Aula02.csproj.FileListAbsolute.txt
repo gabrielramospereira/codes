@@ -1,0 +1,13 @@
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\bin\Debug\netcoreapp3.1\Aula02.exe
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\bin\Debug\netcoreapp3.1\Aula02.deps.json
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\bin\Debug\netcoreapp3.1\Aula02.runtimeconfig.json
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\bin\Debug\netcoreapp3.1\Aula02.runtimeconfig.dev.json
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\bin\Debug\netcoreapp3.1\Aula02.dll
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\bin\Debug\netcoreapp3.1\Aula02.pdb
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.csprojAssemblyReference.cache
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.AssemblyInfoInputs.cache
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.AssemblyInfo.cs
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.csproj.CoreCompileInputs.cache
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.dll
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.pdb
+C:\Users\g-die\Documents\gRamos\Diel\codes\C#\Aula02 - parâmetros de entrada\obj\Debug\netcoreapp3.1\Aula02.genruntimeconfig.cache

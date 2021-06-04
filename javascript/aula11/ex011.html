@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULADO</title>
+</head>
+<body>
+    <h1>Identificador de nacionalidade: </h1>
+   País: <input type="text" name="pais" id="pais">
+   <input type="button" value='Verificar' onclick="conferir()">
+   <div id="res"></div>
+</body>
+<script>
+    function conferir(){
+        var p = document.getElementById("pais").value
+        if (p == "Brasil"){
+            res.innerText = 'Você é brasileiro.'
+        } else{
+            res.innerText = `Você é estrangeiro. ${p}` 
+        }
+
+
+    }
+</script>
+</html>

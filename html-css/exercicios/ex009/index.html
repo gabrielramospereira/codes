@@ -4,34 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações:</h1>
-        <h2>Código fonte e Pré-Formatado</h2>
-            <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
-            <pre>
-                <code>
-num = int(input('Digite um número inteiro: '))
-    if (num % 2 == 0):
-        print('O número ${} é par'.format(num))
-    else:
-        print('O número ${} é ímpar'.format(num))
-print('Fim do programa')
-                </code>
-            </pre>
+    <h1>Trabalhando com Listas</h1>
+        <h2>Listas Ordenadas</h2>
+            <ol type="1">   <!--Type: 1 A a i I-->
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café</li>
+                <li>Almoçar</li>
+                <li>Cafézinho</li>
+                <li>Soneca</li>
+            </ol>
 
-        <h2>Citações simples</h2>
-            <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-        
-        <h2>Citações complexas</h2>
-            <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
-            <blockquote cite='url do livro'>
-                A diferença entre elementos online é importante.
-            </blockquote>
-        <h2>Abreviações</h2>
-            <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr>e <abbr title="Cascating Style Sheets">CSS</abbr> e estou gostando</p>
-        <h2>Texto Invertido</h2>
-            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+        <h2>Listas Não Ordenadas</h2>
+            <ul type="square"> <!--Type: circle disc-->
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Ovos</li>
+            </ul>
+
+        <h2>Minhas linguagens favoritas</h2>
+            <ol>
+                <li>Antigas</li>
+                    <ol type="a">
+                        <li>Fortran</li>
+                        <li>Clip</li>
+                        <li>Visual Basic</li>
+                    </ol>
+                <li>Novas</li>
+                    <ol type="a" start="4">
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>R</li>
+                    </ol>
+            </ol>
+
+        <h2>Meus Jogos Favoritos</h2>
+            <ol>
+                <li>NES</li>
+                    <ul type ="square">
+                        <li>Mario</li>
+                        <li>Mario Kart</li>
+                    </ul>
+                <li>SNES</li>
+                    <ul type ="square">
+                        <li>Dong Kong</li>
+                        <li>Soccer</li>
+                    </ul>
+                <li>PlayStation</li>
+                    <ul type ="square">
+                        <li>Castlevanis</li>
+                        <li>Jack Chan</li>
+                    </ul>
+            </ol>
+        <h2>Lista de Definição</h2>
+            <dl>
+                <dt>Termo</dt>
+                <dd>Descrição</dd>
+                <dt>HTML</dt>
+                <dd>Linguagem para a marcação da criação de um site.</dd>
+                <dt>JavaScript</dt>
+                <dt></dt>
+            </dl>
+            
+
 </body>
 </html>
